@@ -644,7 +644,7 @@ h5{
 
 /*------styling for mobile screen 375x2000------------*/
 
-@media screen and (max-width:365px) {
+@media screen and (max-width:320px) {
 body{
     margin: 0px;
 }
