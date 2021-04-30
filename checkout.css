@@ -542,6 +542,7 @@ i:hover{
 
 .payment{
     position: absolute;
+    width:383px;
     left: 817px;
     top: 615px;
 }
