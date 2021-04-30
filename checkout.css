@@ -554,7 +554,7 @@ h5{
     top: 50px;
 }
 .Pmethod{
-    display: flex;
+    display: inline-flex;
     flex-direction:  row;
     width: 40px;
     height: 40px;
