@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkout.css">
+    <link rel= "icon" href="https://res.cloudinary.com/dh74x05iz/image/upload/v1618184075/devchallenges.png">
+    <title>Checkout Page</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Checkout</h1>
+            <form action="#" method="get">
+                <div class="checkbox">
+                    <div>
+                        <h3>Contact Infomation</h3>
+                        <label class="email">E-mail</label>
+                        <input class="Einput" type="email" name="email" placeholder="Enter your email..." required >
+                        <img class="Eicon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619605424/outline_email_black_24dp_kouytb.png" alt="">
+                        <label class="phone">Phone</label>
+                        <input class="Pinput" type="" name="phonenumber" placeholder="Enter your phone..." required  >
+                        <img class="Picon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619605424/outline_phone_black_24dp_emaje9.png" alt="">
+                    </div>
+                    <div>
+                        <h4>Shipping Address</h4>
+                        <label class="fname">Full name</label>
+                        <input class="Finput" type="text" name="fullname" placeholder="Rodney Cotton" required >
+                        <img class="Ficon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619606346/round_person_black_24dp_ekry2y.png" alt="">
+
+                        <label class="address">Address</label>
+                        <input class="Ainput" type="text" name="address" placeholder="Your address..." required >
+                        <img class="Aicon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619605424/outline_home_black_24dp_kkdkvf.png" alt="">
+                        
+                        <label class="city">City</label>
+                        <input class="Cinput" type="text" name="city" placeholder="Your city..." required >
+                        <img class="Cicon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619605424/outline_location_city_black_24dp_apkikp.png" alt="">
+                        
+                        <label class="country">Country</label>
+                        <select class="coninput" name="country"  required>
+                            <option value="country" req >Your country..</option>
+                            <option value="country" >USA</option>
+                            <option value="country" >Nigeria</option>
+                            <option value="country" >Brazil</option>
+                        </select>
+
+                        <img class="conicon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619605423/outline_public_black_24dp_y4o8jf.png" alt="">
+                        <label class="postal">Postal code</label>
+                        <input class="Psinput" type="text" name="postalcode" placeholder="Your postal code..." required >
+                        <img class="Psicon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619605424/outline_markunread_mailbox_black_24dp_jdtmiz.png" alt="">
+                    
+                        <input class="cbox" type="checkbox" name="info" id="">
+                        <strong>Save this information for next time</strong>
+                        <input class="submit" type="submit" value="Continue">
+                    </div>
+                </div>
+                <div class="payment">
+                    <h5>Payment</h5>
+                    <label class="Acard" style="font-size: 12px; font-weight: 600; color: #4f4f4f; margin-top: 10px;"></label>
+
+                    <div class="Pmethod">
+                        <img class="mastercard" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619693740/mastercard_bjctss.png" alt="">
+                        <img class="visa" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619694152/visa_rjql5z.png" alt="">
+                        <img class="bitcoin" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619694621/bitcoin_otgfki.png" alt="">
+                        <img class="paypal" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619694446/paypal_r4gehi.png" alt="">
+                    </div>
+
+                    
+                    <div class="payment2">
+                        <label class="cname">Name on Card</label>
+                        <input type="text" id="cname" name="cardname" placeholder="Rodney Cotton" required>
+                        <label class="ccnum">Credit card number</label>
+                        <input type="text" id="ccnum" name="cardnumber" placeholder="1111 - 2222 - 3333 - 4444" required maxlength="16">
+                        <label class="exmonth">Exp Month</label>
+                        <input type="month" id="exmonth" name="expmonth" placeholder="September" required>
+                        <label class="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="352" required maxlength="3">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="certbox">
+            <div class="cart">
+                <div class="rect"></div> 
+                <img class="item1" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619565962/photo1_xyhvl5.png" alt="">
+                <div class="vintage">Vintage Backbag</div>
+                <p class="price1">$54.99 <span>$94.99</span></p>
+                <div class="rect1"></div>
+                <p class="one">1</p>
+                <div class="rect"></div> 
+                <img class="item2" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619565962/photo2_ijdbo6.png" alt="">
+                <div class="levi">Levi Shoe</div>
+                <p class="price2">$74.99 <span>$124.99</span></p>
+                <div class="rect1"></div>
+                <p class="one1">1</p>
+                <div class="ship">Shipping</div>
+                <div class="line1"></div>
+                <p class="shipP">$19</p>
+                <div class="tt">Total</div>
+                <div class="line2"></div>
+                <p class="ttP">$148.98</p> 
+                <i class="previous"> &#8249;</i>
+                <i class="next"> &#8250;</i>
+                <i class="previous1"> &#8249;</i>
+                <i class="next1"> &#8250;</i>
+            </div>
+        </div>
+        <div class="footer">
+            <p>created by <a href="https://github.com/WizBrym">Wizbrym</a> - devChallenges.io</p>
+        </div>
+    </div>
+    
+</body>
+</html>
