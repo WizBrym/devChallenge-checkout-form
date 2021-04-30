@@ -561,6 +561,9 @@ h5{
     height: 40px;
     margin: -45px 0px 20px 155px;
 }
+.mastercard{
+    width:40px;
+}
 .visa{
     width:40px;
     margin-left: 10px;
