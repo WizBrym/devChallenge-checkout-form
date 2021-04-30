@@ -83,4 +83,4 @@ $ npm start
 ## Contact
 
 - GitHub [@wizbrym](https://{github.com/wizbrym})
-- Twitter [@wiz_bry](https://{twitter.com/wiz_brym})
+- Twitter [@wiz_brym](https://{twitter.com/wiz_brym})
