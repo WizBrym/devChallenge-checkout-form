@@ -20,7 +20,7 @@
                         <input class="Einput" type="email" name="email" placeholder="Enter your email..." required >
                         <img class="Eicon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619605424/outline_email_black_24dp_kouytb.png" alt="">
                         <label class="phone">Phone</label>
-                        <input class="Pinput" type="" name="phonenumber" placeholder="Enter your phone..." required  >
+                        <input class="Pinput" type="tel" name="phonenumber" placeholder="Enter your phone..." required  >
                         <img class="Picon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619605424/outline_phone_black_24dp_emaje9.png" alt="">
                     </div>
                     <div>
@@ -38,8 +38,8 @@
                         <img class="Cicon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619605424/outline_location_city_black_24dp_apkikp.png" alt="">
                         
                         <label class="country">Country</label>
-                        <select class="coninput" name="country"  required>
-                            <option value="country" req >Your country..</option>
+                        <select class="coninput" name="country" size="1"  required>
+                            <option label="country"></option>
                             <option value="country" >USA</option>
                             <option value="country" >Nigeria</option>
                             <option value="country" >Brazil</option>
@@ -50,14 +50,13 @@
                         <input class="Psinput" type="text" name="postalcode" placeholder="Your postal code..." required >
                         <img class="Psicon" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619605424/outline_markunread_mailbox_black_24dp_jdtmiz.png" alt="">
                     
-                        <input class="cbox" type="checkbox" name="info" id="">
+                        <input class="cbox" type="checkbox" name="info">
                         <strong>Save this information for next time</strong>
                         <input class="submit" type="submit" value="Continue">
                     </div>
                 </div>
                 <div class="payment">
                     <h5>Payment</h5>
-
                     <div class="Pmethod">
                         <img class="mastercard" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619693740/mastercard_bjctss.png" alt="">
                         <img class="visa" src="https://res.cloudinary.com/dh74x05iz/image/upload/v1619694152/visa_rjql5z.png" alt="">
@@ -72,7 +71,7 @@
                         <label class="ccnum">Credit card number</label>
                         <input type="text" id="ccnum" name="cardnumber" placeholder="1111 - 2222 - 3333 - 4444" required maxlength="16">
                         <label class="exmonth">Exp Month</label>
-                        <input type="month" id="exmonth" name="expmonth" placeholder="September" required>
+                        <input type="month" id="exmonth" name="expmonth" required>
                         <label class="cvv">CVV</label>
                         <input type="text" id="cvv" name="cvv" placeholder="352" required maxlength="3">
                     </div>
